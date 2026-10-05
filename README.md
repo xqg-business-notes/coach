@@ -2,7 +2,7 @@
 
 把创业困惑变成有依据的判断和下一步行动。Business Coach 在对话中理解你的具体处境，从持续更新的知识库语义检索相关方法，再结合反馈一起调整判断。与「小强哥 Business Network」配合使用：Business Coach 帮你想清楚怎么做，Business Network 帮你寻找业务连接。
 
-Business Coach 侧重判断与行动，[Business Network｜商业人脉](https://github.com/u5282261146-crypto/xqg-business-network) 侧重真实人选与合作资源匹配。两个 Skill 可以单独使用，不自动共享完整聊天；Network 的接待记录会另行说明。
+Business Coach 侧重判断与行动，[Business Network｜商业人脉](https://github.com/xqg-business-notes/xqg-business-network) 侧重真实人选与合作资源匹配。两个 Skill 可以单独使用，不自动共享完整聊天；Network 的接待记录会另行说明。
 
 你可以直接描述当前情况，不必先选课程或填写长问卷。无论正在准备创业、刚起步，还是已经在经营业务，都可以带着具体问题来聊。
 
@@ -27,7 +27,7 @@ Business Coach 侧重判断与行动，[Business Network｜商业人脉](https:/
 
 在支持 Skill 安装、Python 3 和联网命令的 AI 工具中发送：
 
-> 请从 https://github.com/u5282261146-crypto/xqg-business-coach 安装 skills/xqg-business-coach 目录里的 Skill。
+> 请从 https://github.com/xqg-business-notes/xqg-business-coach 安装 skills/xqg-business-coach 目录里的 Skill。
 
 也可以下载本仓库，将 `skills/xqg-business-coach` 文件夹放入宿主支持的 Skill 目录。以 Codex 为例，可放在 `~/.agents/skills/` 下；按宿主提示重新加载技能或新建对话。仅将本链接粘贴到不支持 Skill 和命令执行的普通聊天窗口，不等于完成安装。
 
@@ -53,6 +53,6 @@ Business Coach 侧重判断与行动，[Business Network｜商业人脉](https:/
 
 ## 版本与许可
 
-客户端：`0.2.0-rc4`，社群试用版。知识版本由服务端独立维护。
+客户端：`0.2.0-rc5`，社群试用版。知识版本由服务端独立维护。
 
 公开客户端采用 [MIT 许可](LICENSE)。许可不涵盖私有知识库或第三方来源内容，也不授予批量抓取与再分发后台知识的权利。方法出处以查询结果中真实提供的来源为准。

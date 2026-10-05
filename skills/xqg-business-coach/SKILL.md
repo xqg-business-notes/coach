@@ -2,7 +2,7 @@
 name: xqg-business-coach
 description: 使用小强哥 Business Coach 的远程创业知识，帮助中文创业者判断方向、评估项目、设计产品与变现、获客、定价、招聘、合伙及经营取舍；结合用户实际情况给出判断和行动，并根据反馈复盘。明确的单项文案或操作直接完成，不强制全面诊断。
 metadata:
-  version: "0.2.0-rc4"
+  version: "0.2.0-rc5"
 ---
 
 # 小强哥 Business Coach｜创业教练
