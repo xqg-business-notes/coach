@@ -2,7 +2,7 @@
 
 知识更新在服务器端完成。用户安装后持续查询当前生效的知识，无需因为新增课程或方法反复重装。
 
-安装包中的介绍、对话规则、客户端功能或 API 协议改变时，才可能需要更新本地包。官方仓库固定为 `https://github.com/xqg-business-notes/xqg-business-coach`，安装子目录固定为 `skills/xqg-business-coach`。`status` 可返回 `client_latest`，普通版本提示不阻断服务，不把任何连接故障都当成必须重装。
+安装包中的介绍、对话规则、客户端功能或 API 协议改变时，才可能需要更新本地包。官方仓库固定为 `https://github.com/xqg-business-notes/coach`，安装子目录固定为 `skills/xqg-business-coach`。`status` 可返回 `client_latest`，普通版本提示不阻断服务，不把任何连接故障都当成必须重装。
 
 用户说“帮我更新小强哥 Business Coach”即授权常规更新：先确定官方主分支的完整 commit SHA，从同一提交读取仓库根目录 `release-manifest.json`，下载其 `skills/xqg-business-coach/` 子目录中列出的文件并核对 SHA-256。根目录清单不在安装子目录里，不能假设已安装副本自带该清单。只替换该子目录内的发行文件，备份到 Skill 扫描目录之外。根据本地版本对应的官方历史内容识别个性化修改；基线无法确认或遇到本地冲突时先保留、核对，不强制覆盖。`~/.config/xqg-business-coach/installation.key` 不属于发行包，始终保留，不重新生成以绕过额度。
 

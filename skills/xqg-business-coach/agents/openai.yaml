@@ -1,4 +1,4 @@
 interface:
-  display_name: "小强哥 Business Coach｜创业教练"
+  display_name: "小强哥创业教练"
   short_description: "结合持续更新的创业知识，分析当前经营问题、判断取舍并推进下一步行动"
   default_prompt: "用 $xqg-business-coach 帮我理清当前创业问题，找到有依据的下一步行动。"
