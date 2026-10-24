@@ -11,7 +11,7 @@ from urllib.request import Request, HTTPRedirectHandler, build_opener
 from urllib.error import HTTPError, URLError
 
 BASE_URL='https://api.xqgnetwork.com/coach/v1'
-CLIENT_VERSION='0.2.0-rc10'
+CLIENT_VERSION='0.2.0-rc11'
 CLIENT_PROTOCOL=1
 
 
